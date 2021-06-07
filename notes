@@ -1,0 +1,20 @@
+Clustering => Technique used to find groups of observations(clusters) that 
+share similar characteristics. 
+KmeansClustering is an Unsupervised Learning Algorithm for data classification. 
+
+Kmeans begins with randomly chosen data points as proposed means of the 
+data groups and iteratively recalculates new means in order to 
+converge to a final clustering of the data points. 
+
+When define value of K, ur telling the algorithm how many means or 
+centeroids u want. 
+k = 3 => 3 clusters 
+Centeroid is a data point that represents the center of the cluster 
+and it might not necessarily be a member of the dataset. 
+
+How the algorithm works ?? 
+1. K centeroids re created randomly based on pre defined value of K 
+2. kmeans allocates every data pt in the dataset to the nearest centeroid 
+3. kmeans recalculates the centeroids by taking the mean of all data points assigned 
+to that centeroids cluster 
+4. The algorithm iterates between steps 2 and 3 until some criteria is met 
